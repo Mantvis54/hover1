@@ -1,0 +1,29 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    margin-top: 100px;
+}
+
+a {
+    display: block;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+nav:hover a {
+    opacity: 0.5;
+}
+
+nav a:hover {
+    opacity: 1;
+    color: crimson;
+}
